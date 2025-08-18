@@ -9,11 +9,11 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/scale-camera-fix",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/mrheller13-rip/ScaleCameraFix"
 	},
 	"license": "MIT",
 	"icon": "assets/scale-camera-fix/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"mixins": [
 		"scale-camera-fix.mixins.json"
 	],
@@ -22,8 +22,5 @@
 		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
